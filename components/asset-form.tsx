@@ -125,7 +125,7 @@ export function AssetForm({
             >
               <input
                 type="checkbox"
-                className="sr-only"
+                className="mr-2 align-middle"
                 checked={draft.platforms.includes(platform)}
                 onChange={() =>
                   onChange({
@@ -154,7 +154,7 @@ export function AssetForm({
             >
               <input
                 type="checkbox"
-                className="sr-only"
+                className="mr-2 align-middle"
                 checked={draft.usage.includes(usage)}
                 onChange={() =>
                   onChange({

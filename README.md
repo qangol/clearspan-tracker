@@ -1,5 +1,7 @@
 # Clearspan
 
+Public repo: [github.com/qangol/clearspan-tracker](https://github.com/qangol/clearspan-tracker)
+
 Know whether a creative is still **cleared to run**.
 
 Clearspan is a rights board for UGC and influencer content. Agencies and in-house teams usually track usage windows in a spreadsheet. That sheet is where ads keep running after the license ended.
@@ -38,10 +40,10 @@ npm start
 
 ## Deploy on Vercel
 
-1. Push this repository to GitHub (already the intended source).
-2. Go to [vercel.com/new](https://vercel.com/new) and import the repo.
+1. The code is already on GitHub: [qangol/clearspan-tracker](https://github.com/qangol/clearspan-tracker).
+2. Open [vercel.com/new](https://vercel.com/new) and import that repo (you must be logged into Vercel with the same GitHub account).
 3. Framework preset: **Next.js**. Leave build settings on defaults (`next build`).
-4. Deploy. Add the live URL at the top of this README once it exists.
+4. Deploy. Paste the live URL at the top of this README when it exists.
 
 No environment variables are required for v1.
 
@@ -62,7 +64,8 @@ npm run dev
 
 Сайт откроется на `http://localhost:3000`. Данные живут только в этом браузере. Кнопка **Load demo** возвращает учебные активы.
 
-Выкладка: залей репозиторий на GitHub → Import на Vercel → Deploy. Ключи и база не нужны.
+Репозиторий уже публичный: https://github.com/qangol/clearspan-tracker  
+Выкладка: Vercel → Import Git Repository → Deploy. Ключи и база не нужны.
 
 ## License
 

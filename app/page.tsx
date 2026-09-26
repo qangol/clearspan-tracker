@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 const pains = [
   {
     title: "The spreadsheet lies",
@@ -54,9 +52,9 @@ export default function HomePage() {
           <a href="#product" className="hover:text-ink">
             Product
           </a>
-          <Link href="/app" className="text-accent hover:text-ink">
+          <a href="/app" className="text-accent hover:text-ink">
             Open the board
-          </Link>
+          </a>
         </nav>
       </header>
 
@@ -74,12 +72,12 @@ export default function HomePage() {
             the web — before the next media buy.
           </p>
           <div className="mt-10 flex flex-wrap items-center gap-4">
-            <Link
+            <a
               href="/app"
               className="rounded-sm bg-accent px-5 py-3 text-sm font-medium text-bg hover:opacity-90"
             >
               Open the board
-            </Link>
+            </a>
             <a
               href="#product"
               className="rounded-sm border border-line px-5 py-3 text-sm text-ink-dim hover:text-ink"
@@ -130,9 +128,9 @@ export default function HomePage() {
       <footer className="border-t border-line px-6 py-8 text-sm text-ink-dim">
         <div className="mx-auto flex max-w-6xl flex-col gap-2 md:flex-row md:items-center md:justify-between">
           <p>Clearspan — Apache-2.0. Data stays in your browser.</p>
-          <Link href="/app" className="text-accent hover:text-ink">
+          <a href="/app" className="text-accent hover:text-ink">
             Launch workspace
-          </Link>
+          </a>
         </div>
       </footer>
     </div>

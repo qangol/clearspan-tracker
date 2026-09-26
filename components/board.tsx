@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useMemo, useRef, useState } from "react";
 import {
   AssetForm,
@@ -94,9 +93,9 @@ export function Board() {
       <header className="border-b border-line px-6 py-4">
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-4">
           <div className="flex items-center gap-3">
-            <Link href="/" className="text-sm tracking-[0.22em] uppercase text-ink-dim">
+            <a href="/" className="text-sm tracking-[0.22em] uppercase text-ink-dim">
               Clearspan
-            </Link>
+            </a>
             <span className="text-line">/</span>
             <span className="text-sm">Rights board</span>
           </div>
